@@ -13,6 +13,7 @@ import Student from "./pages/Student";
 import Graduate from "./pages/Graduate";
 import Officer from "./pages/Officer";
 import Teacher from "./pages/Teacher";
+import AdminPageExample from "./pages/AdminPageExample";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -24,6 +25,7 @@ ReactDOM.render(
             <Route path="/Graduate" element={<Graduate/>} />
             <Route path="/Officer" element={<Officer/>} />
             <Route path="/Teacher" element={<Teacher/>} />
+            <Route path="/AdminPageExample" element={<AdminPageExample/>} />
 
         </Routes>
     </BrowserRouter>,
