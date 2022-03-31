@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from "../components/button";
-import InputText from "../components/inputText";
+import InputText from "../components/InputText";
 import CardHeader from "../components/cardHeader";
 
 function Teacher(props) {

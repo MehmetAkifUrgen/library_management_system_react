@@ -16,10 +16,10 @@ function App() {
             <Button onClick={()=> loginHandle("/Teacher")} color="bg-primary" buttonTitle="Öğretim Üyesi" />
             <Button onClick={()=> loginHandle("/Student")} color="bg-secondary" buttonTitle="Öğrenci" />
             <Button onClick={()=> loginHandle("/Officer")} color="bg-warning" buttonTitle="Memur" />
-            <Button onClick={()=> loginHandle("/AdminPageExample")}color="bg-danger" buttonTitle="Mezun" />
+            <Button onClick={()=> loginHandle("/Graduate")}color="bg-danger" buttonTitle="Mezun" />
         </div>
         <div className="card-body d-flex justify-content-center align-items-center">
-            <button type="button" className="btn-dark">Admin Girişi</button>
+            <Button onClick={()=> loginHandle("/AdminPageExample")}color="bg-success" buttonTitle="Admin Girişi" />
         </div>
     </div>
   );
